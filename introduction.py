@@ -28,10 +28,10 @@ print soup.p  #gives first p tag
 print soup.a
 # <a class="sister" href="http://example.com/elsie" id="link1">Elsie</a>
 
-#Not done till yet:
-
 print soup.p['class']
 # u'title'
+
+#Not done till yet :
 
 print soup.find_all('a')
 # [<a class="sister" href="http://example.com/elsie" id="link1">Elsie</a>,
